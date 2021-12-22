@@ -6,4 +6,12 @@ public abstract class Shape {
     //Метод вычесления площадь фигуры
     public abstract double area();
 
+    public Shape(String name) {
+        this.name = name;
+    }
+
+    @Override
+    public String toString() {
+        return name;
+    }
 }
